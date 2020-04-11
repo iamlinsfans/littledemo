@@ -14,7 +14,8 @@ module.exports = {
         open: true,
         port:3000,
         contentBase:'src',
-        hot:true
+        hot:true,
+        host:'192.168.1.6'
     },
     plugins:[
         new htmlWebpackPlugin({
